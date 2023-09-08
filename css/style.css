@@ -8,11 +8,15 @@
 }
 
 html {
-  scroll-behavior: smooth;
   overflow-y: auto;
 }
 html.antiscroll {
   overflow-y: hidden;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
 }
 
 body {
